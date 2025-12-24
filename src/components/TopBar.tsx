@@ -3,7 +3,7 @@ import { Input } from "./ui/input";
 
 const TopBar = () => {
   return (
-    <div className="w-ful h-24 flex items-center justify-between px-6">
+    <div className="w-ful h-20 flex items-center justify-between px-6">
       <div>
         <img
           src="src/assets/logo.png"
