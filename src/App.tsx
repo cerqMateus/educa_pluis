@@ -1,3 +1,4 @@
+import MainBanner from "./components/MainBanner";
 import TopBar from "./components/TopBar";
 import TopMenu from "./components/TopMenu";
 
@@ -6,6 +7,7 @@ function App() {
     <>
       <TopBar />
       <TopMenu />
+      <MainBanner />
     </>
   );
 }

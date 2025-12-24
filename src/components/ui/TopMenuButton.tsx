@@ -12,7 +12,7 @@ const TopMenuButton = ({ children, isActive, onClick }: TopMenuButtonProps) => {
       <Button
         variant={"ghost"}
         className={
-          isActive ? "text-green-400 font-bold" : "text-muted-foreground"
+          isActive ? "text-primary font-bold" : "text-muted-foreground"
         }
         onClick={onClick}
       >
